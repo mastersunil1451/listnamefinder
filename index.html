@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Name List App</h1>
+
+        <!-- Input for Name List (multiline text area) -->
+        <label for="nameInput">Enter Names (one per line, up to 200 names):</label>
+        <textarea id="nameInput" rows="10" placeholder="Enter names here, one per line..."></textarea>
+        
+        <button id="resetBtn">Reset List</button>
+
+        <!-- Search Field for Filtering -->
+        <label for="searchInput">Search and Filter Names:</label>
+        <input type="text" id="searchInput" placeholder="Type to filter names...">
+
+        <!-- Display the List of Names -->
+        <ul id="nameList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
